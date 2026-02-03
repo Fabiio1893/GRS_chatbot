@@ -302,8 +302,9 @@ AUFGABE:
 # ----------------------------
 # Streamlit UI
 # ----------------------------
-st.set_page_config(page_title="GraphRAG Chatbot (Neo4j)", page_icon="🧠", layout="wide")
-st.title("🧠 GraphRAG Chatbot (Neo4j Aura)")
+st.set_page_config(page_title="Actimondo Chatbot", page_icon="☢️", layout="wide")
+st.title("☢️ Actimondo Chatbot")
+st.caption("Dieser Chatbot wendet die graphRAG Methode an. Der Wissengraf ist basierend auf dem Dokument 'STE Research Report-Full.pdf' ")
 
 with st.sidebar:
     st.markdown("### OpenAI")
